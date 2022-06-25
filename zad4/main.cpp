@@ -24,14 +24,14 @@ int main(int argc, char* argv[])
     if (argc != 3) 
     {
         saveLog("Tworzenie testowych plikow");
-        createFile1("t1file1.bin", 100, 0x55);
-        createFile1("t1file2.bin", 100, 0x55);
+        //createFile1("t1file1.bin", 100, 0x55);
+        //createFile1("t1file2.bin", 100, 0x55);
 
-        createFile1("t2file1.bin", 100, 0x55);
-        createFile1("t2file2.bin", 90, 0x55);
+        //createFile1("t2file1.bin", 100, 0x55);
+        //createFile1("t2file2.bin", 90, 0x55);
 
-        createFile1("t3file1.bin", 400000000, 0x50);
-        createFile1("t3file2.bin", 400000000, 0x50);
+        //createFile1("t3file1.bin", 400000000, 0x50);
+        //createFile1("t3file2.bin", 400000000, 0x50);
         saveLog("Pliki testowe zostaly stworzone");
     }
     else //arguments are passed correctly
